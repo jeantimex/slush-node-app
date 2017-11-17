@@ -1,7 +1,9 @@
-# Slush Node-app [![Build Status](https://secure.travis-ci.org/jeantimex/slush-node-app.png?branch=master)](https://travis-ci.org/jeantimex/slush-node-app) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-node-app.png)](http://badges.enytc.com/for/npm/slush-node-app)
+# Slush Node-app
 
-> Scaffold your next node.js app with ES6 syntax.
+Scaffold your next node.js app with ES6 syntax.
 
+[![npm version](https://badge.fury.io/js/slush-node-app.svg)](https://badge.fury.io/js/slush-node-app)
+[![Build Status](https://secure.travis-ci.org/jeantimex/slush-node-app.png?branch=master)](https://travis-ci.org/jeantimex/slush-node-app)
 
 ## Getting Started
 
@@ -16,13 +18,23 @@ $ npm install -g slush-node-app
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-node-app
+$ mkdir myapp
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-node-app && slush node-app
+$ cd myapp && slush node-app
+```
+
+After the project is scaffolded, run the following command to start the demo:
+```bash
+$ npm run app
+```
+
+Test the project:
+```bash
+$ npm run test
 ```
 
 ## Getting To Know Slush

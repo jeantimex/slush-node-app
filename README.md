@@ -1,4 +1,4 @@
-# Slush Node-app
+# Slush Node Application
 
 Scaffold your next node.js app with ES6 syntax.
 
